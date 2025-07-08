@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>테스트 슥삭</title>
+
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/header.css" />
+
+    <link rel="stylesheet" href="css/slide.css" />
+    <script src="js/slide.js"></script>
+  </head>
+  <body>
+    <div class="wrap">
+      <!-- 1. 헤더 -->
+      <div class="header">
+        <!-- 1.1. 헤더 컨테이너 너비 최대 1024px -->
+        <div class="container container-header">
+          <div class="hc_left">
+            <div class="hcl_logo">
+              <a href="#"
+                ><img src="images/img_logo_ssgsag.svg" alt="logo"
+              /></a>
+            </div>
+            <div class="hcl_nav">
+              <ul class="hcl_nav_items">
+                <li><a href="#">내 일정</a></li>
+                <li><a href="#">추천공고</a></li>
+                <li><a href="#">슈퍼인턴</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="hc_right">
+            <div class="hcr_nav">
+              <ul class="hcr_nav_items">
+                <li class="hcr_nav_item">
+                  <a href="#">
+                    <div><img src="images/ic_upload.svg" alt="" /></div>
+                    공고등록
+                  </a>
+                </li>
+                <li class="hcr_nav_item">
+                  <a href="#">
+                    <div>
+                      <img src="images/ic_advertise.svg" alt="" />
+                    </div>
+                    광고문의
+                  </a>
+                </li>
+                <li class="hcr_nav_item"><a href="#">로그인</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 2. 슬라이드 + 아이콘 -->
+      <div class="slide">
+        <div class="slide_wrap">
+          <!-- Swiper -->
+          <div class="swiper sw_slide">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <a href="#" class="slide_item">
+                  <img src="images/banner.png" alt="slide" />
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="#" class="slide_item">
+                  <img src="images/banner.png" alt="slide" />
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="#" class="slide_item">
+                  <img src="images/banner.png" alt="slide" />
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="#" class="slide_item">
+                  <img src="images/banner.png" alt="slide" />
+                </a>
+              </div>
+            </div>
+          </div>
+          <button class="sw_slide_prev">
+            <img src="images/keyboard_arrow_left.png" alt="" />
+          </button>
+          <button class="sw_slide_next">
+            <img src="images/keyboard_arrow_right.png" alt="" />
+          </button>
+          <div class="sw_slide_pg"></div>
+        </div>
+      </div>
+
+      <!-- 3. 콕 -->
+      <!-- 4. 핫한 공고 -->
+      <!-- 5. 방금 공고 -->
+      <!-- 6. 앱 설치 -->
+      <!-- 7. 푸터 -->
+    </div>
+  </body>
+</html>

@@ -1,0 +1,86 @@
+.header {
+  border-bottom: 1px solid #eee;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  background-color: #fff;
+}
+
+.container-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 18px;
+  height: 72px;
+}
+
+.hc_left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 54px;
+}
+.hcl_logo {
+  /* display: flex;
+  align-items: center; */
+}
+
+.hcl_logo > a {
+  display: flex;
+}
+
+.hcl_logo img {
+}
+.hcl_nav {
+}
+.hcl_nav_items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 34px;
+}
+
+.hcl_nav_items > li {
+  display: flex;
+}
+
+.hcl_nav_items > li > a {
+  font-size: 17px;
+}
+
+.hc_right {
+}
+.hcr_nav {
+}
+.hcr_nav_items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+.hcr_nav_item > a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 8px;
+}
+
+.hcr_nav_item > a > div {
+  display: flex;
+}
+
+.hcr_nav_item > a {
+  font-size: 15px;
+}
+
+.hcr_nav_item .logIn {
+  display: block;
+  font-size: 14px;
+  padding: 12px 20px;
+  background-color: #837fff;
+  border-radius: 10px;
+  color: #fff;
+}
