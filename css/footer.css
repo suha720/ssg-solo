@@ -1,0 +1,35 @@
+.container-footer {
+  padding-top: 60px;
+}
+
+.footer-up {
+  display: flex;
+  justify-content: space-between;
+}
+
+.fup-l {
+}
+
+.footer-title {
+  font-size: 17px;
+  font-weight: 600;
+  color: #1c1c1c;
+}
+
+.f-phon {
+  color: #444;
+  font-weight: 700;
+}
+
+.fp-font {
+  font-size: 14px;
+  color: #aaa;
+}
+.fup-r {
+  display: flex;
+}
+
+.f-Up-text > a {
+  font-size: 16px;
+  color: #aaa;
+}

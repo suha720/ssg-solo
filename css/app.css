@@ -13,7 +13,7 @@
   display: flex;
   gap: 56px;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
 }
 
 .app-content-image {
@@ -28,6 +28,18 @@
   object-fit: cover;
 }
 
+.app-content-guide {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  justify-content: center;
+}
+
+.ac-desc {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
 .ac-title {
   font-weight: 700;
   color: #1c1c1c;
@@ -36,6 +48,21 @@
 .ac-sub {
   font-size: 16px;
   color: #777;
+}
+
+.app-store-wrap {
+  display: flex;
+  gap: 8px;
+}
+
+.app-store-box {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  border: 1px solid #dee2e6;
+  gap: 12px;
+  padding: 14px 40px;
+  border-radius: 8px;
 }
 
 .app-store-images {
