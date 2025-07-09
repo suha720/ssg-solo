@@ -9,10 +9,10 @@ window.addEventListener("load", () => {
     spaceBetween: 80,
     centeredSlides: true,
     speed: 1000,
-    // autoplay: {
-    //   delay: 3000,
-    //   disableOnInteraction: false,
-    // },
+    autoplay: {
+      delay: 3000,
+      disableOnInteraction: false,
+    },
     navigation: {
       nextEl: ".sw_slide_next",
       prevEl: ".sw_slide_prev",
